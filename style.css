@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 2%;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 10%;
+}
+
+img {
+    cursor: pointer;
+}
+
+.fa-solid {
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.nav-left img {
+    width: 120px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.nav-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 50%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid #666;
+    border-style: none;
+    border-radius: 32px;
+}
+
+.search-bar input {
+    width: 560px;
+    background: transparent;
+    font-size: 14px;
+    border: 0.5px solid #666;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    outline: none;
+    padding: 10px 2%;
+    border-style: solid;
+}
+
+.fa-magnifying-glass {
+    padding: 10px 4%;
+    background-color: rgb(198, 198, 198);
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 10%;
+}
+
+.nav-right-icons {
+    display: flex;
+    align-items: center;
+}
+
+.fa-video {
+    margin-right: 20px;
+}
+
+.fa-bell {
+    margin-left: 20px;
+}
+
+.profile-pic img {
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    margin-left: 40px;
+}
